@@ -3,6 +3,7 @@ from PySide2.QtWidgets import *
 from PySide2.QtGui import *
 from ui_COS import Ui_COS
 
+
 class cos(QMainWindow, Ui_COS):
     def __init__(self):
         super().__init__()
